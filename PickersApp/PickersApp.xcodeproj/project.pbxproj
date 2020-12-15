@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E692F3F125886253000F3F4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F3F025886253000F3F4E /* AppDelegate.swift */; };
+		E692F3F325886253000F3F4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F3F225886253000F3F4E /* SceneDelegate.swift */; };
+		E692F3F525886253000F3F4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F3F425886253000F3F4E /* ViewController.swift */; };
+		E692F3F825886253000F3F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E692F3F625886253000F3F4E /* Main.storyboard */; };
+		E692F3FA25886256000F3F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E692F3F925886256000F3F4E /* Assets.xcassets */; };
+		E692F3FD25886256000F3F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E692F3FB25886256000F3F4E /* LaunchScreen.storyboard */; };
+		E692F405258864C2000F3F4E /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F404258864C2000F3F4E /* DatePickerViewController.swift */; };
+		E692F407258864E3000F3F4E /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F406258864E3000F3F4E /* SingleComponentPickerViewController.swift */; };
+		E692F409258864FF000F3F4E /* DoubleConponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */; };
+		E692F40B2588651F000F3F4E /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */; };
+		E692F40D25886533000F3F4E /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F40C25886533000F3F4E /* CustomPickerViewController.swift */; };
+		E692F40F258893F7000F3F4E /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = E692F40E258893F7000F3F4E /* statedictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E692F3ED25886253000F3F4E /* PickersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E692F3F025886253000F3F4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E692F3F225886253000F3F4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E692F3F425886253000F3F4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E692F3F725886253000F3F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E692F3F925886256000F3F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E692F3FC25886256000F3F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E692F3FE25886256000F3F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E692F404258864C2000F3F4E /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		E692F406258864E3000F3F4E /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleConponentPickerViewController.swift; sourceTree = "<group>"; };
+		E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		E692F40C25886533000F3F4E /* CustomPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		E692F40E258893F7000F3F4E /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = ../../../../Downloads/statedictionary.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E692F3EA25886253000F3F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E692F3E425886253000F3F4E = {
+			isa = PBXGroup;
+			children = (
+				E692F3EF25886253000F3F4E /* PickersApp */,
+				E692F3EE25886253000F3F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E692F3EE25886253000F3F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E692F3ED25886253000F3F4E /* PickersApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E692F3EF25886253000F3F4E /* PickersApp */ = {
+			isa = PBXGroup;
+			children = (
+				E692F3F025886253000F3F4E /* AppDelegate.swift */,
+				E692F3F225886253000F3F4E /* SceneDelegate.swift */,
+				E692F3F425886253000F3F4E /* ViewController.swift */,
+				E692F3F625886253000F3F4E /* Main.storyboard */,
+				E692F3F925886256000F3F4E /* Assets.xcassets */,
+				E692F3FB25886256000F3F4E /* LaunchScreen.storyboard */,
+				E692F3FE25886256000F3F4E /* Info.plist */,
+				E692F404258864C2000F3F4E /* DatePickerViewController.swift */,
+				E692F406258864E3000F3F4E /* SingleComponentPickerViewController.swift */,
+				E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */,
+				E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */,
+				E692F40C25886533000F3F4E /* CustomPickerViewController.swift */,
+				E692F40E258893F7000F3F4E /* statedictionary.plist */,
+			);
+			path = PickersApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E692F3EC25886253000F3F4E /* PickersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E692F40125886256000F3F4E /* Build configuration list for PBXNativeTarget "PickersApp" */;
+			buildPhases = (
+				E692F3E925886253000F3F4E /* Sources */,
+				E692F3EA25886253000F3F4E /* Frameworks */,
+				E692F3EB25886253000F3F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickersApp;
+			productName = PickersApp;
+			productReference = E692F3ED25886253000F3F4E /* PickersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E692F3E525886253000F3F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "KIM SEONGGYU";
+				TargetAttributes = {
+					E692F3EC25886253000F3F4E = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = E692F3E825886253000F3F4E /* Build configuration list for PBXProject "PickersApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E692F3E425886253000F3F4E;
+			productRefGroup = E692F3EE25886253000F3F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E692F3EC25886253000F3F4E /* PickersApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E692F3EB25886253000F3F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E692F3FD25886256000F3F4E /* LaunchScreen.storyboard in Resources */,
+				E692F3FA25886256000F3F4E /* Assets.xcassets in Resources */,
+				E692F40F258893F7000F3F4E /* statedictionary.plist in Resources */,
+				E692F3F825886253000F3F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E692F3E925886253000F3F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E692F405258864C2000F3F4E /* DatePickerViewController.swift in Sources */,
+				E692F3F525886253000F3F4E /* ViewController.swift in Sources */,
+				E692F3F125886253000F3F4E /* AppDelegate.swift in Sources */,
+				E692F407258864E3000F3F4E /* SingleComponentPickerViewController.swift in Sources */,
+				E692F40B2588651F000F3F4E /* DependentComponentPickerViewController.swift in Sources */,
+				E692F409258864FF000F3F4E /* DoubleConponentPickerViewController.swift in Sources */,
+				E692F40D25886533000F3F4E /* CustomPickerViewController.swift in Sources */,
+				E692F3F325886253000F3F4E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E692F3F625886253000F3F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E692F3F725886253000F3F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E692F3FB25886256000F3F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E692F3FC25886256000F3F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E692F3FF25886256000F3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E692F40025886256000F3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E692F40225886256000F3F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyugyu.PickersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E692F40325886256000F3F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PickersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyugyu.PickersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E692F3E825886253000F3F4E /* Build configuration list for PBXProject "PickersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E692F3FF25886256000F3F4E /* Debug */,
+				E692F40025886256000F3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E692F40125886256000F3F4E /* Build configuration list for PBXNativeTarget "PickersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E692F40225886256000F3F4E /* Debug */,
+				E692F40325886256000F3F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E692F3E525886253000F3F4E /* Project object */;
+}
