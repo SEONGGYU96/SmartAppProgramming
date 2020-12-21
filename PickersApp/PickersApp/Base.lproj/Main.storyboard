@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ynr-BE-GGx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ynr-BE-GGx">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,7 +24,7 @@
                                     <outlet property="delegate" destination="HbD-pG-Lmv" id="naa-Xi-aq7"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-me-adA">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ixa-me-adA">
                                 <rect key="frame" x="185" y="268" width="44" height="30"/>
                                 <state key="normal" title="Select"/>
                                 <connections>
@@ -30,14 +32,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="OAQ-8K-UuU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Ixa-me-adA" firstAttribute="centerX" secondItem="hF8-UE-p1E" secondAttribute="centerX" id="62P-Hg-3AB"/>
                             <constraint firstItem="rOA-OR-EUp" firstAttribute="top" secondItem="OAQ-8K-UuU" secondAttribute="top" id="O1P-sI-roG"/>
                             <constraint firstItem="rOA-OR-EUp" firstAttribute="centerX" secondItem="hF8-UE-p1E" secondAttribute="centerX" id="isb-WV-MuO"/>
                             <constraint firstItem="Ixa-me-adA" firstAttribute="top" secondItem="rOA-OR-EUp" secondAttribute="bottom" constant="8" id="nVl-Xa-jFg"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="OAQ-8K-UuU"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Single" image="singleicon" id="BE1-yz-DTC"/>
                     <connections>
@@ -56,13 +58,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="vuc-wY-prV">
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="vuc-wY-prV">
                                 <rect key="frame" x="47" y="44" width="320" height="216"/>
                                 <date key="maximumDate" timeIntervalSinceReferenceDate="694177200">
                                     <!--2022-12-31 11:00:00 +0000-->
                                 </date>
                             </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HED-Y8-E6b">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HED-Y8-E6b">
                                 <rect key="frame" x="185" y="279" width="44" height="30"/>
                                 <state key="normal" title="Select"/>
                                 <connections>
@@ -70,14 +72,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="XJ1-xh-EQv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="vuc-wY-prV" firstAttribute="top" secondItem="XJ1-xh-EQv" secondAttribute="top" id="1in-ek-G60"/>
                             <constraint firstItem="HED-Y8-E6b" firstAttribute="top" secondItem="vuc-wY-prV" secondAttribute="bottom" constant="19" id="N42-73-5ke"/>
                             <constraint firstItem="HED-Y8-E6b" firstAttribute="centerX" secondItem="v5x-aT-xJD" secondAttribute="centerX" id="gs9-82-UOY"/>
                             <constraint firstItem="vuc-wY-prV" firstAttribute="centerX" secondItem="v5x-aT-xJD" secondAttribute="centerX" id="vfU-Jw-kem"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="XJ1-xh-EQv"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Date" image="clockicon" id="Bwl-2I-1Ux"/>
                     <connections>
@@ -124,7 +126,7 @@
                                     <outlet property="delegate" destination="B68-TM-0ad" id="IDE-t5-kmp"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGU-09-zYJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGU-09-zYJ">
                                 <rect key="frame" x="185" y="268" width="44" height="30"/>
                                 <state key="normal" title="Select"/>
                                 <connections>
@@ -132,16 +134,16 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Om8-3X-TeR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="4Am-az-2Ht" firstAttribute="top" secondItem="Om8-3X-TeR" secondAttribute="top" id="4nO-o4-yb6"/>
                             <constraint firstItem="NGU-09-zYJ" firstAttribute="top" secondItem="4Am-az-2Ht" secondAttribute="bottom" constant="8" id="V69-Cl-qrM"/>
                             <constraint firstItem="4Am-az-2Ht" firstAttribute="centerX" secondItem="0Ue-Q8-xpW" secondAttribute="centerX" id="opv-sX-MtG"/>
                             <constraint firstItem="NGU-09-zYJ" firstAttribute="centerX" secondItem="0Ue-Q8-xpW" secondAttribute="centerX" id="sEu-GS-jXh"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Om8-3X-TeR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Double" image="dependenticon (1)" id="qPW-Ny-bFg"/>
+                    <tabBarItem key="tabBarItem" title="Double" image="double" id="qPW-Ny-bFg"/>
                     <connections>
                         <outlet property="doublePicker" destination="4Am-az-2Ht" id="IS6-6y-clm"/>
                     </connections>
@@ -165,7 +167,7 @@
                                     <outlet property="delegate" destination="Ljf-nq-LMo" id="sZ4-N8-fYF"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-hX-T9u">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rve-hX-T9u">
                                 <rect key="frame" x="185" y="268" width="44" height="30"/>
                                 <state key="normal" title="Select"/>
                                 <connections>
@@ -173,14 +175,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Fqe-TB-VUS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="fMJ-qk-TlZ" firstAttribute="top" secondItem="Fqe-TB-VUS" secondAttribute="top" id="AZE-hl-GYc"/>
                             <constraint firstItem="Rve-hX-T9u" firstAttribute="top" secondItem="fMJ-qk-TlZ" secondAttribute="bottom" constant="8" id="JqC-wS-EFz"/>
                             <constraint firstItem="Rve-hX-T9u" firstAttribute="centerX" secondItem="To5-ZD-MRl" secondAttribute="centerX" id="rhT-TH-BA5"/>
                             <constraint firstItem="fMJ-qk-TlZ" firstAttribute="centerX" secondItem="To5-ZD-MRl" secondAttribute="centerX" id="wFF-Kj-H4B"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Fqe-TB-VUS"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Dependent" image="dependenticon" id="r0E-pF-Q04"/>
                     <connections>
@@ -209,10 +211,10 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vT-Y2-Czr">
                                 <rect key="frame" x="207" y="268" width="0.0" height="57.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duS-KN-V7Y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duS-KN-V7Y">
                                 <rect key="frame" x="191.5" y="349.5" width="31" height="30"/>
                                 <state key="normal" title="Spin"/>
                                 <connections>
@@ -220,7 +222,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kXC-KX-mh4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FlK-wQ-Foe" firstAttribute="centerX" secondItem="U0d-b3-icV" secondAttribute="centerX" id="2kt-VQ-ScU"/>
                             <constraint firstItem="duS-KN-V7Y" firstAttribute="top" secondItem="FlK-wQ-Foe" secondAttribute="bottom" constant="89.5" id="6wo-a8-6uo"/>
@@ -230,7 +233,6 @@
                             <constraint firstItem="9vT-Y2-Czr" firstAttribute="centerX" secondItem="U0d-b3-icV" secondAttribute="centerX" id="vCZ-Vj-mLy"/>
                             <constraint firstItem="duS-KN-V7Y" firstAttribute="top" secondItem="9vT-Y2-Czr" secondAttribute="bottom" constant="24" id="xVu-gS-waS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kXC-KX-mh4"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Custom" image="toolicon" id="tfG-0W-sNP"/>
                     <connections>
@@ -246,8 +248,14 @@
     <resources>
         <image name="clockicon" width="24" height="24"/>
         <image name="dependenticon" width="25" height="24"/>
-        <image name="dependenticon (1)" width="25" height="24"/>
+        <image name="double" width="25" height="25"/>
         <image name="singleicon" width="25" height="24"/>
         <image name="toolicon" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

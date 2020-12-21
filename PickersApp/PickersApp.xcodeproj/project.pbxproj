@@ -18,7 +18,7 @@
 		E692F409258864FF000F3F4E /* DoubleConponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */; };
 		E692F40B2588651F000F3F4E /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */; };
 		E692F40D25886533000F3F4E /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692F40C25886533000F3F4E /* CustomPickerViewController.swift */; };
-		E692F40F258893F7000F3F4E /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = E692F40E258893F7000F3F4E /* statedictionary.plist */; };
+		E6988F652590788600223DE5 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6988F642590788600223DE5 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleConponentPickerViewController.swift; sourceTree = "<group>"; };
 		E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
 		E692F40C25886533000F3F4E /* CustomPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
-		E692F40E258893F7000F3F4E /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = ../../../../Downloads/statedictionary.plist; sourceTree = "<group>"; };
+		E6988F642590788600223DE5 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				E692F408258864FF000F3F4E /* DoubleConponentPickerViewController.swift */,
 				E692F40A2588651F000F3F4E /* DependentComponentPickerViewController.swift */,
 				E692F40C25886533000F3F4E /* CustomPickerViewController.swift */,
-				E692F40E258893F7000F3F4E /* statedictionary.plist */,
+				E6988F642590788600223DE5 /* statedictionary.plist */,
 			);
 			path = PickersApp;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			files = (
 				E692F3FD25886256000F3F4E /* LaunchScreen.storyboard in Resources */,
 				E692F3FA25886256000F3F4E /* Assets.xcassets in Resources */,
-				E692F40F258893F7000F3F4E /* statedictionary.plist in Resources */,
+				E6988F652590788600223DE5 /* statedictionary.plist in Resources */,
 				E692F3F825886253000F3F4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
