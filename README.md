@@ -30,3 +30,4 @@ Practice of Smart app programming class in Seoultech university
 <img src="https://user-images.githubusercontent.com/57310034/102745551-9db9e980-439f-11eb-828a-be595f536727.gif"/>
 
 ## 4. Assignment #4: Table view with search bar
+<img src="https://user-images.githubusercontent.com/57310034/102975606-b06d2380-4543-11eb-886c-024dfcb83d32.gif"/>
